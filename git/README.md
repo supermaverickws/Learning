@@ -44,6 +44,8 @@
 * [git branch] 查看当前分支
 * [git merge --no-ff -m "{merge info}"{branch}] 合并分支。切换到master分支 合并到master分支上
 * [git branch -d {branch}] 删除分支
+* [git stash] 保存现场
+* [git cherry-pick {4c805e2}] 复制修改
 
 
 

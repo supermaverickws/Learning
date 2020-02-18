@@ -49,5 +49,7 @@
 * [git stash apply stash@{0}] 恢复现场
 * [git stash pop ] 恢复线程并删除记录
 * [git cherry-pick {4c805e2}] 复制修改 先在改动分支 commit 后得到版本号，然后切换到要复制的分支，执行 cherry-pick 命令 复制修改。
+* [git log --graph --pretty=oneline --abbrev-commit] 查看远程提交日志
+
 
 

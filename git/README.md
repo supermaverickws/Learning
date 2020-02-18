@@ -27,3 +27,18 @@
 ## [ git reset HEAD {file} ] 可以把文件从暂存区撤销(就是把文件 add 到暂存区后，reset 到工作区)  
 
 ## [ git rm {file} ]  rm 删除文件后，[git rm] 然后 [git commit] 删除文件，误删可以[git checkout]
+
+## [ git remote add origin git@github.com:{supermaverickws/Learning.git} ] 将本地仓库与远程仓库关联
+
+## [ git push origin master ] 提交代码到git  
+
+* [ssh-keygen -t rsa -b 4096 -C "youremailname@example.com"]在用户目录下生成 [.ssh]文件夹并cd到此目录内。用[more id_rsa.pub]查看公钥详情。把公钥详情添加到 git 账户中
+
+## [ git clone {url}] 克隆远程仓库
+
+## 分支
+
+* [git branch {mybranch}] 创建分支
+* [git checkout {mybranch}] 切换分支
+* [git checkout -b {mybranch}] 创建并切换分支
+

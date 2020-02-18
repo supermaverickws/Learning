@@ -36,9 +36,14 @@
 
 ## [ git clone {url}] 克隆远程仓库
 
-## 分支
+# 分支
 
 * [git branch {mybranch}] 创建分支
-* [git checkout {mybranch}] 切换分支
-* [git checkout -b {mybranch}] 创建并切换分支
+* [git checkout {mybranch}] 或者 [git switch {mybranch}] 切换分支
+* [git checkout -b {mybranch}] 或者 [git switch -c {mybranch}]创建并切换分支
+* [git branch] 查看当前分支
+* [git merge --no-ff -m "{merge info}"{branch}] 合并分支。切换到master分支 合并到master分支上
+* [git branch -d {branch}] 删除分支
+
+
 

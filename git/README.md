@@ -45,7 +45,7 @@
 * [git merge --no-ff -m "{merge info}"{branch}] 合并分支。切换到master分支 合并到master分支上
 * [git branch -d {branch}] 删除分支
 * [git stash] 保存现场
-* [git cherry-pick {4c805e2}] 复制修改
+* [git cherry-pick {4c805e2}] 复制修改 先在改动分支 commit 后得到版本号，然后切换到要复制的分支，执行 cherry-pick 命令 复制修改。
 
 
 

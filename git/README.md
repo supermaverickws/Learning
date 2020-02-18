@@ -53,5 +53,7 @@
 * [ git pull origin {dev} ] 拉取分支代码
 * [git checkout -b branch-name origin/branch-name ] 例如[git checkout -b dev origin/dev] 在本地创建和远程分支对应的分支
 * [ git branch --set-upstream branch-name origin/branch-name ] 建立本地分支和远程分支的关联
+* [git log --graph --pretty=oneline --abbrev-commit] 查看远程提交日志
+
 
 

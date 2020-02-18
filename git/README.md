@@ -49,11 +49,21 @@
 * [git stash apply stash@{0}] 恢复现场
 * [git stash pop ] 恢复线程并删除记录, 当前在哪个分支，就会恢复最新的保存到当前分支下，非必须原来的分支
 * [git cherry-pick {4c805e2}] 复制修改 先在改动分支 commit 后得到版本号，然后切换到要复制的分支，执行 cherry-pick 命令 复制修改。
+<<<<<<< HEAD
 * [ git push origin {dev} ] 分支推送的远程
 * [ git pull origin {dev} ] 拉取分支代码
 * [git checkout -b branch-name origin/branch-name ] 例如[git checkout -b dev origin/dev] 在本地创建和远程分支对应的分支
 * [ git branch --set-upstream branch-name origin/branch-name ] 建立本地分支和远程分支的关联
+=======
+<<<<<<< HEAD
+>>>>>>> dev
 * [git log --graph --pretty=oneline --abbrev-commit] 查看远程提交日志
 
+=======
+* [ git push origin {dev} ] 分支推送的远程
+* [ git pull origin {dev} ] 拉取分支代码
+* [git checkout -b branch-name origin/branch-name ] 例如[git checkout -b dev origin/dev] 在本地创建和远程分支对应的分支
+* [ git branch --set-upstream branch-name origin/branch-name ] 建立本地分支和远程分支的关联
+>>>>>>> test git stash pop
 
 

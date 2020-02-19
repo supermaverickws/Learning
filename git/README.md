@@ -42,6 +42,8 @@
 * [git checkout {mybranch}] 或者 [git switch {mybranch}] 切换分支
 * [git checkout -b {mybranch}] 或者 [git switch -c {mybranch}]创建并切换分支
 * [git branch] 查看当前分支
+  * [git branch -a] a = all 查看本地和远程所有分支
+  * [git branch -r] r=remote 查看远程所有分支
 * [git merge --no-ff -m "{merge info}"{branch}] 合并分支。切换到master分支 合并到master分支上
 * [git branch -d {branch}] 删除分支
 * [git stash] 保存现场
@@ -50,6 +52,7 @@
 * [git stash pop ] 恢复线程并删除记录, 当前在哪个分支，就会恢复最新的保存到当前分支下，非必须原来的分支
 * [git cherry-pick {4c805e2}] 复制修改 先在改动分支 commit 后得到版本号，然后切换到要复制的分支，执行 cherry-pick 命令 复制修改。
 * [ git push origin {dev} ] 分支推送的远程
+* [ git push origin --delete dev ] 删除远程分支
 * [ git pull origin {dev} ] 拉取分支代码
 * [git checkout -b branch-name oqrigi,
 n/branch-name ] 例如[git checkout -b dev origin/dev] 在本地创建和远程分支对应的分支
